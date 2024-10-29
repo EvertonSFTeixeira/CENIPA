@@ -1,7 +1,4 @@
 # CENIPA
-Aqui está um exemplo de README para o projeto de análise de dados do CENIPA. Sinta-se à vontade para personalizá-lo conforme necessário:
-
----
 
 # Análise de Dados de Ocorrências Aeronáuticas (CENIPA)
 
@@ -74,7 +71,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-Esse README oferece uma visão geral clara e organizada do projeto, ajudando novos usuários a entender seu propósito e a navegarem pelo repositório.
