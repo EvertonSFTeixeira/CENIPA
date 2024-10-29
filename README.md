@@ -1,5 +1,3 @@
-# CENIPA
-
 # Análise de Dados de Ocorrências Aeronáuticas (CENIPA)
 
 Este repositório contém uma análise exploratória dos dados de ocorrências aeronáuticas fornecidos pelo Centro de Investigação e Prevenção de Acidentes Aeronáuticos (CENIPA). O objetivo deste projeto é entender o comportamento dos acidentes e incidentes aeronáuticos no Brasil, identificando padrões e insights relevantes para aumentar a segurança na aviação.
