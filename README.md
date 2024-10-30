@@ -5,7 +5,7 @@
 # Análise de Dados de Ocorrências Aeronáuticas (CENIPA)
 
 ## Descrição do Projeto
-Este projeto realiza uma análise exploratória de dados de ocorrências aeronáuticas no Brasil, utilizando dados fornecidos pelo Centro de Investigação e Prevenção de Acidentes Aeronáuticos (CENIPA). O objetivo é identificar padrões e insights que contribuam para uma maior compreensão dos acidentes e incidentes, auxiliando na implementação de estratégias de segurança mais eficazes na aviação.
+Este projeto realiza uma análise exploratória de dados de ocorrências aeronáuticas no Brasil, utilizando dados fornecidos pelo Centro de Investigação e Prevenção de Acidentes Aeronáuticos (CENIPA). O objetivo é identificar padrões e insights que contribuam para uma maior compreensão dos acidentes e incidentes, auxiliando na implementação de estratégias de segurança mais eficazes na aviação. O processo inclui uma etapa de ETL (Extração, Transformação e Carregamento), na qual os dados brutos são extraídos de diferentes fontes, transformados para garantir consistência, qualidade e usabilidade, e carregados em uma estrutura adequada para análise. Essa etapa é essencial para estruturar os dados de forma eficiente, permitindo insights mais precisos e análises aprofundadas sobre os fatores que influenciam a segurança na aviação.
 
 ## Conjunto de Dados
 Os dados utilizados no projeto estão disponíveis publicamente e incluem informações detalhadas sobre diversas ocorrências aeronáuticas. Cada registro abrange aspectos como fase de voo, tipo de aeronave, número de vítimas, causas e localidade do incidente.
