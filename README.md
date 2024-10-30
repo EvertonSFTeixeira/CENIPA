@@ -4,72 +4,64 @@
 
 # Análise de Dados de Ocorrências Aeronáuticas (CENIPA)
 
-Este repositório contém uma análise exploratória dos dados de ocorrências aeronáuticas fornecidos pelo Centro de Investigação e Prevenção de Acidentes Aeronáuticos (CENIPA). O objetivo deste projeto é entender o comportamento dos acidentes e incidentes aeronáuticos no Brasil, identificando padrões e insights relevantes para aumentar a segurança na aviação.
+## Descrição do Projeto
+Este projeto realiza uma análise exploratória de dados de ocorrências aeronáuticas no Brasil, utilizando dados fornecidos pelo Centro de Investigação e Prevenção de Acidentes Aeronáuticos (CENIPA). O objetivo é identificar padrões e insights que contribuam para uma maior compreensão dos acidentes e incidentes, auxiliando na implementação de estratégias de segurança mais eficazes na aviação.
 
-## Conteúdo
+## Conjunto de Dados
+Os dados utilizados no projeto estão disponíveis publicamente e incluem informações detalhadas sobre diversas ocorrências aeronáuticas. Cada registro abrange aspectos como fase de voo, tipo de aeronave, número de vítimas, causas e localidade do incidente.
 
-- [Contexto](#contexto)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Análise Realizada](#análise-realizada)
-- [Como Executar](#como-executar)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
-
-## Contexto
-
-Os dados de ocorrências aeronáuticas no Brasil foram disponibilizados pelo CENIPA e contêm informações sobre diversos aspectos das ocorrências, como a fase de voo, o tipo de aeronave, o número de vítimas e o ano de ocorrência. Este projeto visa analisar esses dados para obter insights sobre os fatores que contribuem para incidentes e acidentes na aviação.
-
-## Tecnologias Utilizadas
-
-- **Python**: Linguagem principal utilizada para a análise e manipulação de dados.
-- **Jupyter Notebook**: Ferramenta utilizada para visualização de dados e execução do código.
-- **Bibliotecas**:
-  - `Pandas` - Manipulação e análise de dados
-  - `os` - Manipulação de diretórios e arquivos do sistema operacional
+- **Fonte dos dados**: CENIPA (Centro de Investigação e Prevenção de Acidentes Aeronáuticos)
+- **Colunas**: O conjunto de dados inclui várias colunas representando variáveis como a categoria do evento, localização, tipo de aeronave e outros fatores contextuais.
+- **Arquivos**:
+  - `ocorrencias.csv`: Dados completos das ocorrências aeronáuticas.
+  - `aeronave.csv`: Dados completos sobre as aeronaves.
 
 ## Estrutura do Projeto
-
-```plaintext
-.
+```
 ├── Analise.ipynb            # Notebook principal com a análise de dados
 ├── README.md                # Descrição do projeto
-├── data/                    # Diretório para os dados brutos
+└── data/                    # Diretório para os dados brutos
 ```
 
-## Análise Realizada
+## Objetivo
+O objetivo deste projeto é explorar e analisar dados de ocorrências aeronáuticas para identificar padrões, tendências e variáveis importantes, contribuindo para uma compreensão mais detalhada dos fatores envolvidos nos acidentes e incidentes aéreos.
 
+## Análise Realizada
 A análise abrange os seguintes aspectos:
 
-1. **Distribuição Temporal de Ocorrências**: Análise do número de ocorrências ao longo dos anos.
-2. **Classificação de Ocorrências**: Exame das categorias de ocorrências mais comuns, como incidentes graves, acidentes e outros tipos.
-3. **Fase do Voo e Causas Primárias**: Identificação das fases de voo em que ocorrem mais incidentes e análise das causas principais.
+1. **Distribuição Temporal de Ocorrências**: Análise da frequência de ocorrências ao longo dos anos.
+2. **Classificação de Ocorrências**: Identificação das categorias de ocorrências mais comuns, como incidentes graves e acidentes.
+3. **Fase do Voo e Causas Primárias**: Análise das fases de voo com maior frequência de ocorrências e das causas principais.
 4. **Distribuição Geográfica**: Visualização dos estados com maior número de ocorrências.
-5. **Outros Fatores Contribuintes**: Investigação de outros fatores, como tipo de aeronave e condição meteorológica no momento da ocorrência.
+5. **Outros Fatores Contribuintes**: Análise de variáveis adicionais, como tipo de aeronave e condições meteorológicas.
 
-## Como Executar
+## Resultados
+A análise identificou tendências e padrões importantes, como as fases de voo mais suscetíveis a incidentes, regiões com maior número de ocorrências e os tipos de aeronaves envolvidos. Esses insights são essenciais para melhorar as estratégias de prevenção e aumentar a segurança aeronáutica.
 
-Para executar a análise localmente:
+## Instalação
 
+### Requisitos
+Para rodar este projeto, você precisará dos seguintes pacotes instalados:
+
+- `Pandas`
+- `OS`
+
+Para instalar as dependências, você pode usar o arquivo `requirements.txt`:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Como Executar
 1. Clone o repositório:
    ```bash
    git clone https://github.com/EvertonSFTeixeira/CENIPA.git
    ```
 
-2. Instale as dependências:
-   ```bash
-   pip install pandas os
-   ```
-
-3. Abra o notebook `Analise.ipynb`:
+2. Abra o notebook `Analise.ipynb`:
    ```bash
    jupyter notebook Analise.ipynb
    ```
 
-## Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias, correções ou novas funcionalidades.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+## Conclusão
+Este projeto demonstrou a aplicabilidade de métodos de análise de dados na compreensão das ocorrências aeronáuticas. A análise dos dados de incidentes e acidentes permitiu identificar padrões e fornecer insights valiosos para a segurança aérea.
